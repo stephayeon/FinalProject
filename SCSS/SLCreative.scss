@@ -1,0 +1,93 @@
+@import url();
+@import 'normalize';
+@import 'base';
+
+@font-face{
+  font-family: 'dalmatins';
+  src:url(../fonts/Dalmatins.otf);
+}
+
+@font-face{
+  font-family: 'karla';
+  src:url(../fonts/Karla.ttf);
+}
+
+@font-face{
+  font-family: 'playfair';
+  src:url(../fonts/PlayfairDisplay.ttf);
+}
+
+$white: #ffffff;
+$mint: #99cccc;
+$black: #000000;
+
+h1{
+  font-family: 'dalmatins';
+  color: $white;
+  font-size: 3rem;
+  text-align: left;
+  padding-left: 4rem;
+  padding-top: 2rem;
+
+}
+
+h2{
+  font-family: 'karla';
+  color: $black;
+  font-size: 1.5rem;
+  margin-top: -5rem;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
+}
+
+.SLC{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+  padding-top: 1.5rem;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $mint;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  display: block;
+  text-align: center;
+  padding: 3rem 3rem;
+  text-decoration: none;
+  font-family: 'karla';
+  color: $mint;
+  font-size: 2.5rem;
+}
+
+.hi{
+  padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+
+
+
+.intro{
+  display: block;
+  margin-block-start: 1em;
+  margin-top: 10rem;
+
+}
