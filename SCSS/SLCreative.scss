@@ -55,7 +55,7 @@ h2{
 }
 
 header{
-  background: $mint;
+  background: #99cccc;
 }
 
 header::after {
@@ -68,26 +68,45 @@ header::after {
 nav{
   float: right;
 }
-/*ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  /*background-color: $mint;}*/
 
-/*li{
-  display: inline;
+nav ul{
+   margin: 0;
+   padding-right: 29.5rem;
+   list-style: none;
 }
 
-li a{
-  display: block;
-  text-align: center;
-  padding: 3rem 3rem;
+nav li{
+  display: inline-block;
+  margin-left: 4.375rem;
+  position: relative;
+}
+
+nav a{
+  color: #666671;
   text-decoration: none;
-  font-family: 'karla';
-  color: $mint;
-  font-size: 2.5rem;
-} */
+  font-size: 1.2rem;
+}
+
+nav a:hover{
+  color: #000000;
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 0.2rem;
+  width: 100%;
+  background-color: #666671;
+
+  width: 0%
+
+  transition: all 1s ease-in-out;
+  /*transition syntax?*/
+}
+
+nav a:hover::before{
+  width: 100%
+}
 
 .hi{
   padding-top: 1rem;
@@ -95,17 +114,10 @@ li a{
   margin-right: auto;
   display: flex;
   justify-content: center;
-
-
 }
-
-
-
-
 
 .intro{
   display: block;
   margin-block-start: 1em;
   margin-top: 10rem;
-
 }
