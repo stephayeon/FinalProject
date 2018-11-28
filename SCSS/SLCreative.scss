@@ -49,15 +49,33 @@ h2{
   padding-top: 1.5rem;
 }
 
-ul{
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+header{
+  background: $mint;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+nav{
+  float: right;
+}
+/*ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: $mint;
-}
+  /*background-color: $mint;}*/
 
-li{
+/*li{
   display: inline;
 }
 
@@ -69,7 +87,7 @@ li a{
   font-family: 'karla';
   color: $mint;
   font-size: 2.5rem;
-}
+} */
 
 .hi{
   padding-top: 1rem;
