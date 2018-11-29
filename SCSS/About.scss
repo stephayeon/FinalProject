@@ -22,21 +22,35 @@ $black: #000000;
 
 h1{
   font-family: 'dalmatins';
-  color: $white;
-  font-size: 3rem;
-  text-align: left;
+  color: $black;
+  font-size: 2rem;
+  text-align: center;
   padding-left: 4rem;
-  padding-top: 2rem;
-
+  padding-top: 4rem;
 }
 
 h2{
-  font-family: 'karla';
+  font-family: 'playfair';
   color: $black;
-  font-size: 1.5rem;
-  margin-top: -5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 2rem;
   padding-left: 4rem;
   padding-bottom: 4rem;
+}
+
+h3{
+  font-family: 'karla';
+  text-align: center;
+}
+
+.steph{
+  width: 20%;
+  height: auto;
+  transform: rotate(90deg);
+  padding-left: 38rem;
+  padding-right: 38rem;
+  padding-top: 2rem;
 }
 
 .SLC{
@@ -76,7 +90,8 @@ nav ul{
 
 nav li{
   display: inline-block;
-  margin-left: 4.375rem;
+  margin-left: 2rem;
+  margin-right: auto;
   position: relative;
 }
 

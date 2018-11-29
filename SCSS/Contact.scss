@@ -22,21 +22,37 @@ $black: #000000;
 
 h1{
   font-family: 'dalmatins';
-  color: $white;
-  font-size: 3rem;
-  text-align: left;
+  color: $black;
+  font-size: 2rem;
+  text-align: center;
   padding-left: 4rem;
-  padding-top: 2rem;
-
+  padding-top: 4rem;
 }
 
 h2{
-  font-family: 'karla';
+  font-family: 'playfair';
   color: $black;
   font-size: 1.5rem;
-  margin-top: -5rem;
-  padding-left: 4rem;
-  padding-bottom: 4rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+a {
+  color: $mint;
+  font-family: 'karla';
+  font-size: 1.7rem;
+}
+
+.contact{
+  text-align: center;
+  text-decoration: none;
+}
+
+.social{
+display: flex;
+justify-content: center;
+padding-left: 10rem;
+padding-right: 10rem;
 }
 
 .SLC{
