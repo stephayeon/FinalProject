@@ -63,20 +63,18 @@ header::after {
   clear: both;
 }
 
-
-nav{
-  float: right;
-}
-
 nav ul{
    margin: 0;
-   padding-right: 29.5rem;
    list-style: none;
+   display: flex;
+   justify-content: center;
+   padding: 0;
 }
 
 nav li{
   display: inline-block;
-  margin-left: 4.375rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   position: relative;
 }
 
