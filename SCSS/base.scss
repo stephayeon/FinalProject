@@ -1,0 +1,45 @@
+html{font-size: 62.5%;}
+
+@font-face{
+  font-family: 'dalmatins';
+  src:url(../fonts/Dalmatins.otf);
+}
+
+@font-face{
+  font-family: 'karla';
+  src:url(../fonts/Karla.ttf);
+}
+
+@font-face{
+  font-family: 'playfair';
+  src:url(../fonts/PlayfairDisplay.ttf);
+}
+
+$white: #ffffff;
+$mint: #99cccc;
+$black: #000000;
+
+
+html{
+  @media (max-width: 575.98px)
+    {font-size: 55%;}
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+      font-size: 58%;
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      font-size: 60%;
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      font-size: 62.5%;
+    }
+    @media (min-width: 1200px) {
+      font-size: 62.5%;
+    }
+  }
+
+/*@media only screen and (max-width: 1000px) {
+  .paw {
+    height: 500px;
+  }
+}*/
