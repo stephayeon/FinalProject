@@ -21,7 +21,7 @@ $mint: #99cccc;
 $black: #000000;
 
 h1{
-  font-family: 'dalmatins';
+  //font-family: 'dalmatins';
   color: $black;
   font-size: 2rem;
   text-align: center;
@@ -65,6 +65,11 @@ h3{
 .container{
   width: 80%;
   margin: 0 auto;
+}
+
+.header{
+  font-family: 'dalmatins';
+  padding-bottom: 2rem;
 }
 
 header{
@@ -118,4 +123,15 @@ nav a::before{
 
 nav a:hover::before{
   width: 100%
+}
+
+ul{
+list-style-type: none;
+text-align: center;
+}
+
+li {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  display: inline-block;
 }

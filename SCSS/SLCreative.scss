@@ -21,7 +21,7 @@ $mint: #99cccc;
 $black: #000000;
 
 h1{
-  font-family: 'dalmatins';
+  //font-family: 'dalmatins';
   color: $white;
   font-size: 3rem;
   text-align: left;
@@ -39,14 +39,14 @@ h2{
   padding-bottom: 4rem;
 }
 
-a {
+/*a {
     background-color: transparent;
 }
 
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: underline;*/
 
 .SLC{
   margin-left: auto;
@@ -55,6 +55,7 @@ a:-webkit-any-link {
   justify-content: center;
   padding-bottom: 4rem;
   padding-top: 1.5rem;
+  list-style: none;
 }
 
 .container{

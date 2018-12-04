@@ -8,6 +8,25 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ @font-face{
+   font-family: 'dalmatins';
+   src:url(../fonts/Dalmatins.otf);
+ }
+
+ @font-face{
+   font-family: 'karla';
+   src:url(../fonts/Karla.ttf);
+ }
+
+ @font-face{
+   font-family: 'playfair';
+   src:url(../fonts/PlayfairDisplay.ttf);
+ }
+
+ $white: #ffffff;
+ $mint: #99cccc;
+ $black: #000000;
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -32,6 +51,7 @@ body {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-family: 'dalmatins'
 }
 
 /* Grouping content
@@ -54,7 +74,7 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: 'karla'; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -97,7 +117,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: 'karla'; /* 1 */
   font-size: 1em; /* 2 */
 }
 
