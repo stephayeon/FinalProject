@@ -30,10 +30,6 @@ h1{
 
 }
 
-img{
-  width: 100%;
-  height: auto;
-}
 
 h2{
   text-align: center;
@@ -128,10 +124,9 @@ nav a:hover::before{
 
 .hi{
   padding-top: 1rem;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   justify-content: center;
+    width: 100%;
 }
 
 .intro{
